@@ -1,4 +1,4 @@
 # CHP_Traffic_Bakersfield
 Log of CHP reported traffic incidents in the Bakersfield Communication Center.<br/>
 
-Traffic infomation pulled from [CHP Traffic](https://cad.chp.ca.gov/Traffic.aspx)
+Traffic infomation obtained from [CHP SWITRS](https://iswitrs.chp.ca.gov/Reports/jsp/index.jsp)
