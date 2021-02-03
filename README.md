@@ -11,14 +11,14 @@ Traffic infomation obtained from [CHP SWITRS](https://iswitrs.chp.ca.gov/Reports
 # Download .json file
 Using curl and jq:
 
-    curl ".json raw url" | jq . > filename.json
+    curl ".json-raw-url" | jq . > filename.json
 
 ## Converting .json to SQLite database to use with Datasette
 To convert the .json files in this repo to a SQLite database, follow the documentation [located here](https://sqlite-utils.datasette.io/en/stable/cli.html#inserting-json-data)
 
 Example:
     
-    sqlite-utils insert databasename.db tablename filename.json --pk=id
+    sqlite-utils insert database.db tablename filename.json --pk=id
 
 
 ## Basic usage of Datasette (as documented by [Simon Willison](https://github.com/simonw/datasette/blob/main/README.md))
