@@ -16,4 +16,4 @@ To convert the .json files in this repo to a SQLite database, follow the documen
 
     datasette database.db
 
-This will start a web server on port 8001 - visit http://localhost:8001/ to access the web interface.
+This will start a web server on port 8001 - visit http://localhost:8001/ to access the web interface
